@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="shortcut icon" href="./img/lenguaje-de-codificacion.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <title>JM Desarrollador Web</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/JM/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.facebook.com/josealejandro.maldonadoarteaga?mibextid=YMEMSu"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/jmaldo_22?igsh=anRmM3hreHpjdjA4&utm_source=qr"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="https://www.linkedin.com/in/jose-maldonado-648987256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/jama2210"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida"></p>
+                <div>
+                    <h2>Hey, Soy Jose Maldonado </h2>
+                    <span>Disponible para trabajar</span>
+                </div>
+                
+                <p class="descripcion">Analista Programador y Desarrollador Web. <span>De Santiago, Chile.</span></p>
+                <p class="descripcion">Especializado en crear <span class="web-text">aplicaciones, paginas y sitios Web</span></p>
+
+                <a href="#portfolio">Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/yo2.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Soy <span>!Jose!</span> </h2>
+            <h3>Programador y Desarrollador</h3>
+            <p>
+                Estudie musica y, tras años aprendiendo, 
+                me pase al mundo de la Programacion. Desde
+                entonces disfruto creando experiencias Web 
+                para los usuarios.
+            </p>
+            <p>
+                entre mis exitos destaco que durante el Bootcamp
+                de desarrollo Front-End en Academlo, ayude a mis
+                compañeros a aprender sobre CSS y responsive web design.
+                Me encanta el diseño en CSS puro, creo en su importancia,
+                y me gusta compartir mi conocimiento sobre ello.
+            </p>
+            <p>
+                Cuento con experiencia desarrollando aplicaciones, sitios y
+                paginas Web, actualmente estoy creando una iniciativa llamada 
+                JTIM LIFE para mezclar mis dos pasiones: la Programacion y la Musica.
+                Ayudando a las personas que se quieran iniciar en el mundo musical.
+            </p>
+            <a href="">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-user"></i></span>
+                <h4>Desarrollo de Interfaces de Usuario (UI)</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Diseño</li>
+                    <li>Atractivo</li>
+                    <li>Visual</li>
+                </ul>
+                <p>
+                    Diseñar y construir la interfaz visual de la aplicación o sitio web,
+                    asegurándo de que sea intuitiva, atractiva y fácil de usar.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-computer"></i></span>
+                <h4>Desarrollo de Experiencia de Usuario (UX)</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Usuario</li>
+                    <li>Experiencia</li>
+                    <li>Navegacion</li>
+                </ul>
+                <p>
+                    Mejorar la experiencia general del usuario, asegurándo de que la navegación sea eficiente
+                    y que los usuarios encuentren fácilmente lo que están buscando.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-mobile-screen-button"></i></i></span>
+                <h4>Desarrollo Responsivo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Movil</li>
+                    <li>Tablet</li>
+                    <li>Computador</li>
+                </ul>
+                <p>
+                    La interfaz se adapta de manera óptima
+                    a diferentes dispositivos y tamaños de pantalla.
+                </p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-server"></i></span>
+                <h4>Integración de API</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Back-End</li>
+                    <li>Servicios</li>
+                    <li>Datos</li>
+                </ul>
+                <p>
+                    Integracion de servicios y datos desde el servidor mediante API, 
+                    asegurando una comunicación efectiva entre el front-end y el back-end.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-regular fa-file-excel"></i> </span>
+                <h4>Pruebas y Depuración</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Identificar</li>
+                    <li>Corregir</li>
+                    <li>Errores</li>
+                </ul>
+                <p>
+                    Se Realizan pruebas exhaustivas para identificar y corregir errores, garantizando
+                    un rendimiento sin problemas y una experiencia de usuario sin fallos.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+                <h4>Mantenimiento Continuo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Soporte</li>
+                    <li>Funcionalidad</li>
+                    <li>Seguridad</li>
+                </ul>
+                <p>
+                    Se Proporciona soporte continuo
+                    para mantener la funcionalidad y seguridad del 
+                    front-end, realizando actualizaciones y correcciones 
+                    según sea necesario.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html, Css</p>
+            </div>
+
+            <!-- <div class="barra">
+                <div class="" id="html"></div>
+            </div> -->
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>JavaScript, C#, PHP</p>
+            </div>
+
+            <!-- <div class="barra">
+                <div class="" id="js"></div>
+            </div> -->
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>React, .NET, Bootstrap, jQuery, SASS</p>
+            </div>
+
+            <!-- <div class="barra">
+                <div class="" id="bd"></div>
+            </div> -->
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Git, GitHub, WordPress</p>
+            </div>
+
+            <!-- <div class="barra">
+                <div class="" id="ps"></div>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/clima.png" alt="">
+                <div class="info">
+                    <h4> <a href="https://weatherapprejs.netlify.app">Ver Demo</a> </h4>
+                    <p> <a href="https://github.com/jama2210/mi-segunda-app-react">Ver Repositorio</a> </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/ecomerce.png" alt="">
+                <div class="info">
+                    <h4> <a href="https://ecommerce-react-vitejs.netlify.app">Ver Demo</a> </h4>
+                    <p> <a href="https://github.com/jama2210/ultimo_entregable">Ver Repositorio</a> </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/cafe.png" alt="">
+                <div class="info">
+                    <h4> <a href="https://jma-cafe.netlify.app">Ver Demo</a> </h4>
+                    <p> <a href="https://github.com/jama2210/jma-cafe">Ver Repositorio</a> </p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4> <a href="#">Ver Demo</a> </h4>
+                    <p> <a href="#">Ver Repositorio</a> </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4> <a href="#">Ver Demo</a> </h4>
+                    <p> <a href="#">Ver Repositorio</a> </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4> <a href="#">Ver Demo</a> </h4>
+                    <p> <a href="#">Ver Repositorio</a> </p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4> <a href="#">Ver Demo</a> </h4>
+                    <p> <a href="#">Ver Repositorio</a> </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4> <a href="#">Ver Demo</a> </h4>
+                    <p> <a href="#">Ver Repositorio</a> </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4> <a href="#">Ver Demo</a> </h4>
+                    <p> <a href="#">Ver Repositorio</a> </p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Siganme en Mis Redes Sociales</p>
+        <div class="redes-footer">
+            <a href="https://www.facebook.com/josealejandro.maldonadoarteaga?mibextid=YMEMSu"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/jmaldo_22?igsh=anRmM3hreHpjdjA4&utm_source=qr"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://www.linkedin.com/in/jose-maldonado-648987256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
