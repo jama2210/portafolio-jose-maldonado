@@ -85,7 +85,9 @@
                 JTIM LIFE para mezclar mis dos pasiones: la Programacion y la Musica.
                 Ayudando a las personas que se quieran iniciar en el mundo musical.
             </p>
-            <a href="https://drive.google.com/file/d/1uArrLIgLbne7kwqLqXZjBZoNADlcc2R_/view?usp=sharing">Descargar CV</a>
+            <a href="./docs/Curriculum Jose Maldonado.pdf">Descargar CV</a>
+
+            <!-- <a href="https://drive.google.com/file/d/1uArrLIgLbne7kwqLqXZjBZoNADlcc2R_/view?usp=sharing">Descargar CV</a> -->
         </div>
     </section>
 
@@ -312,20 +314,22 @@
     <section id="contacto">
         <h3 class="titulo-seccion">Contactame</h3>
         <div class="contenedor-form">
-            <form action="">
+
+            <form name="contact" method="post" netlify>
                 <div class="fila mitad">
-                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
-                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                    <input type="text" name="name" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="email" name="email" placeholder="Correo Electronico" class="input-mitad">
                 </div>
-                <div class="fila">
+                <!-- <div class="fila">
                     <input type="text" placeholder="Tema..." class="input-full">
-                </div>
+                </div> -->
                 <div class="fila">
-                    <textarea name="" id="" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                    <textarea name="mensaje" id="" placeholder="Tu Mensaje..." class="input-full"></textarea>
                 </div>
 
                 <input type="submit" value="Enviar" class="btn-enviar">
             </form>
+
         </div>
     </section>
 
