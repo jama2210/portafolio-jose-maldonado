@@ -596,6 +596,13 @@
             text-decoration-color: #d3d3d3;
             text-decoration-thickness: 5px;
         }
+
+        #contacto .contenedor-form .recapcha {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
         
         #contacto .btn-enviar {
             display: block;
