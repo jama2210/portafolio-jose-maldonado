@@ -258,16 +258,16 @@
 
             <form action="./pages/exitoMensaje.html" name="contact" method="post" netlify>
 
-                <input type="hidden" name="subject" value="Sales inquiry from portafolio-jmaldo.netlify.app" />
+                <input type="hidden" name="subject" value="Jose, has recibido un nuevo mensaje desde el formulario de tu pagina: portafolio-jmaldo.netlify.app" />
                 <div class="fila mitad">
-                    <input type="text" name="name" placeholder="Nombre Completo" class="input-mitad" required>
-                    <input type="email" name="email" placeholder="Correo Electronico" class="input-mitad" required>
+                    <input type="text" name="nombre" placeholder="Nombre Completo" class="input-mitad" required>
+                    <input type="email" name="correo" placeholder="Correo Electronico" class="input-mitad" required>
                 </div>
 
                 <div class="fila">
                     <textarea name="mensaje" id="" placeholder="Tu Mensaje..." class="input-full" required></textarea>
+                    <div data-netlify-recaptcha="true"></div>
                 </div>
-                <div data-netlify-recaptcha="true"></div>
 
                 <input type="submit" value="Enviar" class="btn-enviar">
             </form>
