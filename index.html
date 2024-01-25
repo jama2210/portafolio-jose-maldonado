@@ -203,27 +203,18 @@
                 <p> <span class="lista"> </span>JavaScript, C#, PHP</p>
             </div>
 
-            <!-- <div class="barra">
-                <div class="" id="js"></div>
-            </div> -->
         </div>
+
         <div class="skill">
             <div class="info">
                 <p> <span class="lista"> </span>React, .NET, Bootstrap, jQuery, SASS</p>
             </div>
-
-            <!-- <div class="barra">
-                <div class="" id="bd"></div>
-            </div> -->
         </div>
+
         <div class="skill">
             <div class="info">
                 <p> <span class="lista"> </span>Git, GitHub, WordPress</p>
             </div>
-
-            <!-- <div class="barra">
-                <div class="" id="ps"></div>
-            </div> -->
         </div>
     </div>
 
@@ -256,57 +247,7 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="fila">
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <img src="img/proyecto4.jpg" alt="">
-                <div class="info">
-                    <h4> <a href="#">Ver Demo</a> </h4>
-                    <p> <a href="#">Ver Repositorio</a> </p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <img src="img/proyecto5.jpg" alt="">
-                <div class="info">
-                    <h4> <a href="#">Ver Demo</a> </h4>
-                    <p> <a href="#">Ver Repositorio</a> </p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <img src="img/proyecto6.jpg" alt="">
-                <div class="info">
-                    <h4> <a href="#">Ver Demo</a> </h4>
-                    <p> <a href="#">Ver Repositorio</a> </p>
-                </div>
-            </div>
-        </div>
-        <div class="fila">
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <img src="img/proyecto7.jpg" alt="">
-                <div class="info">
-                    <h4> <a href="#">Ver Demo</a> </h4>
-                    <p> <a href="#">Ver Repositorio</a> </p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <img src="img/proyecto8.jpg" alt="">
-                <div class="info">
-                    <h4> <a href="#">Ver Demo</a> </h4>
-                    <p> <a href="#">Ver Repositorio</a> </p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <img src="img/proyecto9.jpg" alt="">
-                <div class="info">
-                    <h4> <a href="#">Ver Demo</a> </h4>
-                    <p> <a href="#">Ver Repositorio</a> </p>
-                </div>
-            </div> -->
+        
         </div>
     </section>
 
@@ -316,16 +257,17 @@
         <div class="contenedor-form">
 
             <form action="./pages/exitoMensaje.html" name="contact" method="post" netlify>
+
+                <input type="hidden" name="subject" value="Sales inquiry from portafolio-jmaldo.netlify.app" />
                 <div class="fila mitad">
                     <input type="text" name="name" placeholder="Nombre Completo" class="input-mitad" required>
                     <input type="email" name="email" placeholder="Correo Electronico" class="input-mitad" required>
                 </div>
-                <!-- <div class="fila">
-                    <input type="text" placeholder="Tema..." class="input-full">
-                </div> -->
+
                 <div class="fila">
                     <textarea name="mensaje" id="" placeholder="Tu Mensaje..." class="input-full" required></textarea>
                 </div>
+                <div data-netlify-recaptcha="true"></div>
 
                 <input type="submit" value="Enviar" class="btn-enviar">
             </form>
