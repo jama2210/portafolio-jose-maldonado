@@ -585,6 +585,7 @@
         
         #contacto .contenedor-form .input-full {
             width: 100%;
+            resize: none;
         }
         
         #contacto .titulo-seccion {
@@ -762,8 +763,9 @@
                 margin-bottom: 15px;
             }
 
-            #contacto .contenedor-form textarea {
+            #contacto .contenedor-form .input-full {
                 width: 100%;
+                /* resize: both; */
             }
             
             footer {
