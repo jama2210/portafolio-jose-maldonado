@@ -705,7 +705,8 @@
             };
 
             #inicio .contenido .presentacion .descripcion {
-                font-size: 8px;
+                font-size: 15px;
+                padding: 0 10px;
             }
             /* seccion SOBRE MI */
             #sobremi {
